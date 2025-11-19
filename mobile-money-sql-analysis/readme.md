@@ -65,3 +65,32 @@ FROM mobile_money
 WHERE country = 'Ghana'
 GROUP BY year;
 
+
+
+---
+
+### 📁 SQL Script File (Optional): `queries.sql`
+
+```sql
+-- Clean Ghana-only records
+SELECT * FROM mobile_money
+WHERE country = 'Ghana';
+
+-- Adoption trend
+SELECT year, AVG(mobile_money_account) 
+FROM mobile_money 
+WHERE country = 'Ghana'
+GROUP BY year;
+
+-- Gender differences
+SELECT gender, AVG(made_mobile_payment)
+FROM mobile_money
+WHERE country = 'Ghana'
+GROUP BY gender;
+
+-- Savings via mobile money
+SELECT year, SUM(saved_with_mobile_money)
+FROM mobile_money
+WHERE country = 'Ghana'
+GROUP BY year;
+
