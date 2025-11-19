@@ -26,6 +26,9 @@ I am developing skills in data analysis and security, focused on:
 
 ## In progress
 
+**Tableau Dashboard: Customer Analytics**
+**Skills:** Tableau, insights, visualization  
+👉 *[[Tableau Public link](https://public.tableau.com/app/profile/renita.johnson/vizzes)]*
 
 ---
 
