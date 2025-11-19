@@ -30,7 +30,7 @@ I am developing skills in data analysis and security, focused on:
 ---
 
 ## 📫 Contact
-LinkedIn: *Your link here*  
+LinkedIn: *(https://www.linkedin.com/in/renitajackson/)*  
 Email: *renitaeducation@gmail.com*  
 
 
