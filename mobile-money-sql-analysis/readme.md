@@ -50,3 +50,18 @@ WHERE country = 'Ghana'
 GROUP BY year
 ORDER BY year;
 
+### 2. Usage differences by gender
+```sql
+SELECT gender,
+       AVG(made_mobile_payment) AS usage_rate
+FROM mobile_money
+WHERE country = 'Ghana'
+GROUP BY gender;
+
+### 3. Mobile savings patterns
+SELECT year,
+       SUM(saved_with_mobile_money) AS total_mobile_savers
+FROM mobile_money
+WHERE country = 'Ghana'
+GROUP BY year;
+
