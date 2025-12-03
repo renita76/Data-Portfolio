@@ -17,14 +17,16 @@ The goal is to understand:
 ---
 
 # 📂 Dataset Description
-The dataset includes:
-- Country
-- Year
-- Gender
-- Account ownership
-- Mobile money account usage
-- Payment frequency
-- Savings & credit via mobile money
+The long-format dataset includes:
+
+- `country` → Country name (e.g., Ghana)
+- `year` → 2011, 2014, 2017, 2021
+- `value` → Numeric value for the indicator
+- `indicator_code` → Series code (e.g., FP.CPI.MM.ZS)
+- `indicator_name` → Indicator description (e.g., Adults with a mobile money account (% age 15+))
+
+This long-format dataset simplifies analysis, aggregation, and visualization.
+
 
 *(You will upload the CSV file here after downloading it.)*
 
@@ -41,56 +43,37 @@ The dataset includes:
 
 # 📜 Example SQL Queries
 
-### 1. Mobile money adoption by year
+### 1. Mobile money usage trends in Ghana
 ```sql
-SELECT year, 
-       AVG(mobile_money_account) AS avg_mobile_money_usage
-FROM mobile_money
-WHERE country = 'Ghana'
-GROUP BY year
+SELECT year, value, indicator_name
+FROM mobile_money_long
+WHERE TRIM(country) = 'Ghana'
+  AND LOWER(indicator_name) LIKE '%mobile%'
+ORDER BY indicator_name, year;
+
+
+### 2. Mobile phone payment behavior
+```sql
+SELECT year, value, indicator_name
+FROM mobile_money_long
+WHERE TRIM(country) = 'Ghana'
+  AND LOWER(indicator_name) LIKE '%phone%'
 ORDER BY year;
 
-### 2. Usage differences by gender
+
+### 3. Digital transaction adoption
+SELECT year, value, indicator_name
+FROM mobile_money_long
+WHERE TRIM(country) = 'Ghana'
+  AND LOWER(indicator_name) LIKE '%digital%'
+ORDER BY indicator_name, year;
+
+
+### 4. Digital merchant payment growth
 ```sql
-SELECT gender,
-       AVG(made_mobile_payment) AS usage_rate
-FROM mobile_money
-WHERE country = 'Ghana'
-GROUP BY gender;
-
-### 3. Mobile savings patterns
-SELECT year,
-       SUM(saved_with_mobile_money) AS total_mobile_savers
-FROM mobile_money
-WHERE country = 'Ghana'
-GROUP BY year;
-
-
-
----
-
-### 📁 SQL Script File (Optional): `queries.sql`
-
-```sql
--- Clean Ghana-only records
-SELECT * FROM mobile_money
-WHERE country = 'Ghana';
-
--- Adoption trend
-SELECT year, AVG(mobile_money_account) 
-FROM mobile_money 
-WHERE country = 'Ghana'
-GROUP BY year;
-
--- Gender differences
-SELECT gender, AVG(made_mobile_payment)
-FROM mobile_money
-WHERE country = 'Ghana'
-GROUP BY gender;
-
--- Savings via mobile money
-SELECT year, SUM(saved_with_mobile_money)
-FROM mobile_money
-WHERE country = 'Ghana'
-GROUP BY year;
+SELECT year, value
+FROM mobile_money_long
+WHERE TRIM(country) = 'Ghana'
+  AND LOWER(indicator_name) LIKE '%merchant%'
+ORDER BY year;
 
