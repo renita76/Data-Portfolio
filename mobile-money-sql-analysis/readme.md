@@ -1,14 +1,18 @@
-# Mobile Money Usage in Ghana — SQL Analysis
+# 📱 Mobile Money Usage in Ghana — SQL Analysis
 
 ## 📌 Project Overview
-This project analyzes mobile money usage trends in Ghana using publicly available FinTech datasets (from the World Bank Global Findex and GSMA Mobile Money reports).
+This project analyzes **mobile money and digital financial behavior in Ghana** using publicly available data from the **World Bank Global Findex Database**.  
+The dataset originally downloaded in **wide format** (years as columns) was transformed into a cleaner **long format** for better SQL analysis.
 
-The goal is to understand:
-- Mobile money adoption levels  
-- Transaction frequency  
-- Demographic differences  
-- Growth trends over time  
+The analysis explores:
+- Trends in mobile money usage  
+- Digital payment adoption  
+- Mobile phone payment behavior  
+- Changes across the years 2011–2021  
 
+This project demonstrates SQL cleaning, transformation, and exploratory analysis skills using a real Ghana-focused dataset.
+
+---
 ## 🛠️ Tools Used
 - **DBeaver** – SQL environment for importing, cleaning, and reshaping data  
 - **SQLite** – database used for executing queries  
@@ -19,18 +23,55 @@ The goal is to understand:
 ---
 
 # 📂 Dataset Description
-The long-format dataset includes:
 
-- `country` → Country name (e.g., Ghana)
-- `year` → 2011, 2014, 2017, 2021
-- `value` → Numeric value for the indicator
-- `indicator_code` → Series code (e.g., FP.CPI.MM.ZS)
-- `indicator_name` → Indicator description (e.g., Adults with a mobile money account (% age 15+))
+### **Source**
+World Bank Global Findex Database  
+(Downloaded as two CSV files: `...data.csv` and `...series-metadata.csv`)
 
-This long-format dataset simplifies analysis, aggregation, and visualization.
+### **Raw Format (Wide)**
+The original dataset included:
+- `country_name`
+- `country_code`
+- `series_name`
+- `series_code`
+- `2011`, `2014`, `2017`, `2021` (as NVARCHAR)
 
+This format is not SQL-friendly for time-series analysis.
 
-*(You will upload the CSV file here after downloading it.)*
+### **Final Format (Long)**
+A long-format table was created:
+
+| country | indicator_code | indicator_name | year | value |
+|--------|----------------|----------------|------|--------|
+| Ghana  | FP.MOBILE.XYZ  | Used mobile money (%) | 2011 | 34.2 |
+
+This format supports grouping, filtering, and time-series queries.
+
+📁 *Final cleaned dataset:*  
+`/datasets/mobile_money_long.csv`
+
+---
+
+# 🧹 Data Cleaning & Transformation Steps
+
+### **1. Import CSV into DBeaver (SQLite database)**
+- Loaded the raw `data.csv` file  
+- Created table: `mobile_money_raw`
+
+### **2. Cleaned column names**
+```sql
+CREATE TABLE mobile_money_clean AS
+SELECT 
+    country_name AS country,
+    country_code,
+    series_name AS indicator_name,
+    series_code AS indicator_code,
+    "2011" AS y2011,
+    "2014" AS y2014,
+    "2017" AS y2017,
+    "2021" AS y2021
+FROM mobile_money_raw;
+
 
 ---
 
