@@ -1,0 +1,77 @@
+"country","year","value","indicator_code","indicator_name"
+Ghana,2011,..,g20.any,Made or received a digital payment  (% age 15+)
+Ghana,2011,..,mobileaccount.t.d,Mobile money account  (% age 15+)
+Ghana,2011,..,fin3,Used a card or mobile phone to make payments  (% age 15+)
+Ghana,2011,..,g20.made,Made a digital payment  (% age 15+)
+Ghana,2011,..,g20.received,Received digital payments  (% age 15+)
+Ghana,2011,16.1385716122432,fin17a,Saved at a bank or similar financial institution  (% age 15+)
+Ghana,2011,16.1385716122432,fin17a.17a1.d,Saved at a bank or similar financial institution or using a mobile money account  (% age 15+)
+Ghana,2011,..,fin22a_1,Borrowed from a mobile money provider  (% age 15+)
+Ghana,2011,..,fin25e1,Used mobile phone or card to pay for household food or cleaning supplies  (% age 15+)
+Ghana,2011,..,fh1.fh2,Sent or received domestic remittances  (% age 15+)
+Ghana,2011,..,fh1,Sent domestic remittances  (% age 15+)
+Ghana,2011,..,fh2a,Received international remittances   (% age 15+)
+Ghana,2011,..,merchant.pay,Made a digital merchant payment  (% age 15+)
+Ghana,2011,..,fin17b,Saved money using a mobile money account  (% age 15+)
+"",2011,,"",""
+"",2011,,"",""
+"",2011,,"",""
+Data from database: Global Findex database,2011,,"",""
+Last Updated: 10/06/2025,2011,,"",""
+Ghana,2014,25.5462355967989,g20.any,Made or received a digital payment  (% age 15+)
+Ghana,2014,13.0065504347846,mobileaccount.t.d,Mobile money account  (% age 15+)
+Ghana,2014,..,fin3,Used a card or mobile phone to make payments  (% age 15+)
+Ghana,2014,19.9694308288046,g20.made,Made a digital payment  (% age 15+)
+Ghana,2014,17.5976469799162,g20.received,Received digital payments  (% age 15+)
+Ghana,2014,18.5901848149067,fin17a,Saved at a bank or similar financial institution  (% age 15+)
+Ghana,2014,18.5901848149067,fin17a.17a1.d,Saved at a bank or similar financial institution or using a mobile money account  (% age 15+)
+Ghana,2014,..,fin22a_1,Borrowed from a mobile money provider  (% age 15+)
+Ghana,2014,..,fin25e1,Used mobile phone or card to pay for household food or cleaning supplies  (% age 15+)
+Ghana,2014,..,fh1.fh2,Sent or received domestic remittances  (% age 15+)
+Ghana,2014,..,fh1,Sent domestic remittances  (% age 15+)
+Ghana,2014,..,fh2a,Received international remittances   (% age 15+)
+Ghana,2014,..,merchant.pay,Made a digital merchant payment  (% age 15+)
+Ghana,2014,..,fin17b,Saved money using a mobile money account  (% age 15+)
+"",2014,,"",""
+"",2014,,"",""
+"",2014,,"",""
+Data from database: Global Findex database,2014,,"",""
+Last Updated: 10/06/2025,2014,,"",""
+Ghana,2017,49.4667252015465,g20.any,Made or received a digital payment  (% age 15+)
+Ghana,2017,38.9477818238621,mobileaccount.t.d,Mobile money account  (% age 15+)
+Ghana,2017,..,fin3,Used a card or mobile phone to make payments  (% age 15+)
+Ghana,2017,43.4067522480397,g20.made,Made a digital payment  (% age 15+)
+Ghana,2017,35.7556960780649,g20.received,Received digital payments  (% age 15+)
+Ghana,2017,16.1907458894748,fin17a,Saved at a bank or similar financial institution  (% age 15+)
+Ghana,2017,16.1907458894748,fin17a.17a1.d,Saved at a bank or similar financial institution or using a mobile money account  (% age 15+)
+Ghana,2017,..,fin22a_1,Borrowed from a mobile money provider  (% age 15+)
+Ghana,2017,..,fin25e1,Used mobile phone or card to pay for household food or cleaning supplies  (% age 15+)
+Ghana,2017,..,fh1.fh2,Sent or received domestic remittances  (% age 15+)
+Ghana,2017,..,fh1,Sent domestic remittances  (% age 15+)
+Ghana,2017,..,fh2a,Received international remittances   (% age 15+)
+Ghana,2017,..,merchant.pay,Made a digital merchant payment  (% age 15+)
+Ghana,2017,..,fin17b,Saved money using a mobile money account  (% age 15+)
+"",2017,,"",""
+"",2017,,"",""
+"",2017,,"",""
+Data from database: Global Findex database,2017,,"",""
+Last Updated: 10/06/2025,2017,,"",""
+Ghana,2021,65.5665950693213,g20.any,Made or received a digital payment  (% age 15+)
+Ghana,2021,59.687930439756,mobileaccount.t.d,Mobile money account  (% age 15+)
+Ghana,2021,..,fin3,Used a card or mobile phone to make payments  (% age 15+)
+Ghana,2021,63.6486980955894,g20.made,Made a digital payment  (% age 15+)
+Ghana,2021,52.9972224178718,g20.received,Received digital payments  (% age 15+)
+Ghana,2021,21.061655277755,fin17a,Saved at a bank or similar financial institution  (% age 15+)
+Ghana,2021,45.7955090512731,fin17a.17a1.d,Saved at a bank or similar financial institution or using a mobile money account  (% age 15+)
+Ghana,2021,11.9736572115268,fin22a_1,Borrowed from a mobile money provider  (% age 15+)
+Ghana,2021,..,fin25e1,Used mobile phone or card to pay for household food or cleaning supplies  (% age 15+)
+Ghana,2021,77.252872935596,fh1.fh2,Sent or received domestic remittances  (% age 15+)
+Ghana,2021,61.0869920749754,fh1,Sent domestic remittances  (% age 15+)
+Ghana,2021,..,fh2a,Received international remittances   (% age 15+)
+Ghana,2021,14.8667606660636,merchant.pay,Made a digital merchant payment  (% age 15+)
+Ghana,2021,36.7267224976712,fin17b,Saved money using a mobile money account  (% age 15+)
+"",2021,,"",""
+"",2021,,"",""
+"",2021,,"",""
+Data from database: Global Findex database,2021,,"",""
+Last Updated: 10/06/2025,2021,,"",""
