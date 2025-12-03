@@ -10,9 +10,11 @@ The goal is to understand:
 - Growth trends over time  
 
 ## 🛠️ Tools Used
-- SQL (MySQL/PostgreSQL)
-- Git/GitHub
-- Excel (for previewing dataset)
+- **DBeaver** – SQL environment for importing, cleaning, and reshaping data  
+- **SQLite** – database used for executing queries  
+- **Git & GitHub** – version control and project hosting  
+- **Excel** – quick data inspection  
+
 
 ---
 
