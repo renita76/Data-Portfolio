@@ -57,7 +57,7 @@ This project analyzes mobile money adoption trends in Ghana using World Bank Glo
 2. Mobile Money Usage in Ghana — Tableau Dashboard
 Focus: Data visualization & trend analysis
 Skills: KPI design, interactive dashboards
-📊 Tableau Public: (your link)
+📊 Tableau Public: (https://public.tableau.com/views/GhanaMobileMoneyDashboard/GhanaMobileMoneyDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 An interactive dashboard visualizing mobile money adoption, digital transactions, and gender-based usage trends from 2011–2021.
 
