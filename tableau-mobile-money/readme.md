@@ -48,7 +48,7 @@ Columns include:
 
 ## 🌐 Interactive Dashboard
 
-**View on Tableau Public:** [Mobile Money Dashboard — Ghana](https://public.tableau.com/views/YourWorkbook)  
+**View on Tableau Public:** [Mobile Money Dashboard — Ghana](https://public.tableau.com/views/GhanaMobileMoneyDashboard/GhanaMobileMoneyDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 
 > Replace the link above with your actual Tableau Public URL.
 
