@@ -42,7 +42,7 @@ Columns include:
 
 ## 📈 Dashboard Screenshot
 
-![Mobile Money Dashboard](images/dashboard.png)
+![Mobile Money Dashboard](https://github.com/renita76/Data-Portfolio/blob/b3442335279481a08ffe9102426eda637547a967/tableau-mobile-money/images/Ghana%20Mobile%20Money%20Dashboard.png)
 
 ---
 
