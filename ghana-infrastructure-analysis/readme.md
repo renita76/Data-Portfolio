@@ -1,6 +1,9 @@
 # 🇬🇭 Ghana Infrastructure Analysis — SQL Project  
 ### 📊 Road Safety & Transportation Insights
 
+## Executive Summary 
+This project analyzes road safety and transportation data in Ghana to identify accident trends, regional risk patterns, and contributing factors. The findings can support infrastructure planning, road safety initiatives, and data-informed public-sector decision-making.
+
 ## 📌 Project Overview
 This project analyzes transportation and road safety data in Ghana using a structured SQL workflow.  
 The goal is to uncover trends that can support public-sector decision-making, including:
@@ -41,6 +44,14 @@ Typical columns include:
 
 ---
 
+## 📈 Key Insights (Example)
+- Urban regions show significantly higher accident volumes  
+- Motorcycles account for a rising share of accident involvement  
+- Dry weather accidents dominate — challenging the assumption that rain is the primary cause  
+- Severity spikes during evening and early morning hours  
+
+---
+
 ## 🔎 SQL Skills Demonstrated
 - Data cleaning (removing null values, standardizing categories)
 - Aggregation & grouping
@@ -77,14 +88,6 @@ FROM ghana_accidents
 GROUP BY severity
 ORDER BY cases DESC;
 ```
-
----
-
-## 📈 Key Insights (Example)
-- Urban regions show significantly higher accident volumes  
-- Motorcycles account for a rising share of accident involvement  
-- Dry weather accidents dominate — challenging the assumption that rain is the primary cause  
-- Severity spikes during evening and early morning hours  
 
 ---
 
