@@ -72,6 +72,20 @@ An interactive dashboard exploring mobile money usage, digital transactions, and
 Examines road accident data to identify regional risk patterns, severity trends, and contributing factors relevant to infrastructure planning and safety initiatives.
 
 ---
+## 🔍 SQL Case Studies: Data Validation & Content Analysis
+
+In addition to full end-to-end analytics projects, this portfolio includes a collection of focused SQL case studies that demonstrate my ability to analyze, validate, and investigate real-world datasets.
+
+These case studies emphasize:
+- Data quality and validation logic
+- Latest-record and deduplication patterns
+- Text and metadata analysis
+- Investigative querying across relational systems
+
+The work reflects common analytical scenarios in production environments, such as auditing content systems, validating scraped data, and enforcing business rules.
+
+📂 Folder: `/sql-case-studies`
+---
 
 ## 📬 Contact
 
