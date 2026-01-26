@@ -99,6 +99,9 @@ All visuals are built using **tiled containers** to maintain a clean and structu
 ![Mobile Money Dashboard](https://github.com/renita76/Data-Portfolio/blob/b3442335279481a08ffe9102426eda637547a967/tableau-mobile-money/images/Ghana%20Mobile%20Money%20Dashboard.png)
 
 
+Mobile money account ownership in Ghana increased significantly between 2011 and 2021, with the strongest growth after 2017. This trend reflects expanding mobile access, fintech innovation, and growing trust in digital financial services. The continued rise suggests strong potential for deeper financial inclusion initiatives.
+
+
 ## 🧠 Potential Use Cases
 
 - Monitoring financial inclusion progress  
