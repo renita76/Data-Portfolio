@@ -90,4 +90,4 @@ The work reflects common analytical scenarios in production environments, such a
 
 ## 📬 Contact
 
-*Email: renitaeducation@gmail.com LinkedIn: https://www.linkedin.com/in/renitajackson/*
+*Email: renitaeducation@gmail.com LinkedIn: https://linkedin.com/in/renitajson/*
